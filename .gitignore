@@ -1,0 +1,30 @@
+# Python Geçici Dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook Geçici Dosyaları
+.ipynb_checkpoints/
+
+# Sanal Ortamlar (Virtual Environments)
+gav_env/
+venv/
+env/
+.env
+
+# İşletim Sistemi Artıkları (Mac / Windows)
+.DS_Store
+Thumbs.db
+
+# Editör Dosyaları (VS Code, PyCharm vb.)
+.vscode/
+.idea/
+*.swp
+
+# Büyük Veri Setleri (GitHub sınırına takılmamak için)
+tmdb_5000_movies.csv
+tmdb_5000_credits.csv
+IMDb_ratings.csv
+IMDb_movies.csv
+
+# (Not: gav_results.csv dosyası bu listede olmadığı için GitHub'a sorunsuz yüklenecektir)
